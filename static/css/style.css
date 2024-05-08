@@ -5,18 +5,35 @@ body {
 	height: 100vh;
 	background-color: #f4f4f4;
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: 'Arial', sans-serif;
+	color: #333; /* Improved text color for better readability */
 }
 
 .app-container {
 	width: 80%;
 	max-width: 600px;
+	border-radius: 8px; /* Adds rounded corners for modern look */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+	background: #fff; /* Ensures the container stands out against the slightly off-white background */
+	padding: 20px; /* Adds padding inside the container for better text alignment */
+	overflow: hidden; /* Ensures nothing overflows the container */
 }
 
 textarea {
 	width: 100%;
 	height: 300px;
-	padding: 10px;
+	padding: 15px; /* Increased padding for better text input experience */
 	font-size: 16px;
-	border: 1px solid #ddd;
+	line-height: 1.5; /* Improves line spacing in the text area */
+	border: 1px solid #ccc; /* Lighter border color for softer UI */
+	border-radius: 4px; /* Rounded corners for the textarea */
+	background-color: #fafafa; /* Light grey background to reduce eye strain */
+	resize: none; /* Disables resizing to maintain layout integrity */
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05); /* Inner shadow for inset effect */
+	transition: border-color 0.3s; /* Smooth transition for UI interactions */
+}
+
+textarea:focus {
+	border-color: #0056b3; /* Changes border color on focus for better visibility */
+	outline: none; /* Removes default focus outline */
 }
