@@ -2,6 +2,10 @@
 
 VanishType is a web-based writing application built with Flask. This unique app enhances focus and productivity by automatically erasing text if the user stops typing for more than 60 seconds. It's designed to encourage continuous writing and thought flow.
 
+## Live Version
+
+A live version of VanishType is available at the following link: [https://vanishtype.onrender.com](https://vanishtype.onrender.com).
+
 ## Features
 
 - **Auto-Erasing Text**: Text entered in the textarea will vanish after 60 seconds of inactivity.
